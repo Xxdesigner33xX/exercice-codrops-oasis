@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS-only Marquee Menu Effect | Codrops</title>
+	<meta name="description" content="A menu with a css-only marquee hover effect" />
+	<meta name="keywords" content="marquee, css, animation, loop, infinite, hover, menu, navigation" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/zhq0vyf.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+	<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+</head>
+
+<body class="demo-1">
+	<main>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">CSS-only Marquee Menu Effect</h1>
+				<p class="frame__info">based on Francesco Zagami's <a href="https://dribbble.com/shots/9524661-Homepage-Menu-Interaction">Dribbble shot</a></p>
+			</div>
+			<div class="frame__links">
+				<a href="https://tympanus.net/codrops/?p=48796">Article</a>
+				<a href="https://github.com/codrops/CSSMarqueeMenu/">GitHub</a>
+			</div>
+		</div>
+		<nav class="menu">
+			<div class="menu__item">
+				<a class="menu__item-link">(What's the Story) Morning Glory?</a>
+				<img class="menu__item-img" src="img/album1.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Hello .</span>
+						<span>Roll With It .</span>
+						<span>Wonderwall .</span>
+						<span>Don't Look Back In Anger .</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Be Here Now</a>
+				<img class="menu__item-img" src="img/album2.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>D'You Know What I Mean? .</span>
+						<span>My Big Mouth .</span>
+						<span>Magic Pie .</span>
+						<span>Stand By Me .</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">The Masterplan</a>
+				<img class="menu__item-img" src="img/album3.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Acquiesce .</span>
+						<span>Underneath the Sky .</span>
+						<span>Talk Tonight .</span>
+						<span>Going Nowhere .</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Heathen Chemistry</a>
+				<img class="menu__item-img" src="img/album4.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>The Hindu Times .</span>
+						<span>Force of Nature .</span>
+						<span>Hung In a Bad Place .</span>
+						<span>Stop Crying Your Heart Out .</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Definitely Maybe</a>
+				<img class="menu__item-img" src="img/album5.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Rock 'n' Roll Star .</span>
+						<span>Shakermaker .</span>
+						<span>Live Forever .</span>
+						<span>Up In the Sky .</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Times Flies... 1994-2009</a>
+				<img class="menu__item-img" src="img/album6.jpg" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Supersonic .</span>
+						<span>Roll With It .</span>
+						<span>Live Forever .</span>
+						<span>Wonderwall .</span>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="frame">
+			<p>Lien pour écouter <a href="https://www.deezer.com/fr/artist/927">la musique</a></p>
+		</div>
+	</main>
+	<!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+</body>
+
+</html>
